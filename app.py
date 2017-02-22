@@ -241,8 +241,8 @@ def default_factory():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     # cmd = defaultdict(default_factory, command)
-    reply_command = ''' 阿肥我目前可以提供你下列的服務，請對我輸入
-     "eyny" : eyny 電影版 Mega 連結的網址。
+    reply_command = '''Sebuah lemak Saat ini saya dapat menawarkan layanan berikut, masukkan saya
+     "eyny" : eyny The Movie Mega Link Url。
      "news" : apple news 即時新聞。
      "beauty" : ptt 表特版 近期大於 10 推的文章 。
      "ptthot" : ptt 近期熱門的文章。
